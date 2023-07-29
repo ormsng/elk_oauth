@@ -1,6 +1,6 @@
-FROM golang:1.9.2
+FROM golang:1.17
 
-RUN go get github.com/bitly/oauth2_proxy
+RUN go get github.com/ploxiln/oauth2_proxy
 
 WORKDIR /usr
 ADD start.sh /usr

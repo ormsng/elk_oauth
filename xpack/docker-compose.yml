@@ -52,10 +52,10 @@ services:
       - COOKIE_SECRET=secretsecret
       - COOKIE_SECURE=false
       # google oauth2 provider
-      - PROVIDER=google
+      - PROVIDER=github
       # oauth2 credentials
-      - CLIENT_ID=<OAUTH_CLIENT_ID>
-      - CLIENT_SECRET=<OAUTH_CLIENT_SECRET>
+      - CLIENT_ID=de30a0a33db9a7d97be2
+      - CLIENT_SECRET=dad93365117a3f9dd0a88d4933eb673f59836302
   nginx-proxy:
     build: ../nginx_proxy
     links:
